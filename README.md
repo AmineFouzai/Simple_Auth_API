@@ -8,7 +8,7 @@ Simple Auth API  Build With  <a href="https://www.tornadoweb.org/en/stable/">Tor
 <td> 1)  git clone https://github.com/MedAmineFouzai/Simple_Auth_API </td>
 </tr>
 <tr>
-<td> 2) cd Simple_CRUD_API_SQLITE3</td>
+<td> 2) cd Simple_Auth_API</td>
 </tr>
 <tr>
 <td> 3) pip install pipenv</td>
