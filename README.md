@@ -41,7 +41,9 @@ Simple Auth API  Build With  <a href="https://www.tornadoweb.org/en/stable/">Tor
     "email"="example@gmail.com,
     "password":"example"
   }<br>
+
 in url arguments : http://localhost:8000/signup?name=example&email=example@gmail.com&password=example
+<br>
 -response well be a user object like this :
   {
   
