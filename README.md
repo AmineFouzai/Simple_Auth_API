@@ -35,26 +35,28 @@ Simple Auth API  Build With  <a href="https://www.tornadoweb.org/en/stable/">Tor
 <br>
 <h3>Requesting: <a href="http://localhost:8000/signup">http://localhost:8000/signup</a> </h3>
 
- in JSON : {
-  
-    "name":"example"
-    "email"="example@gmail.com,
-    "password":"example"
-  }<br>
+ in JSON : 
+      
+      {
+      "name":"example"
+      "email"="example@gmail.com,
+      "password":"example"
+      }
+ <br>
 
 in url arguments : http://localhost:8000/signup?name=example&email=example@gmail.com&password=example
 <br>
 -response well be a user object like this :
-  {
-  
-    "_id": {
-      "$oid": "5ec0cc38b8ea4c1f03037e85"
-     }, 
-    "name": "UserExample", 
-    "email": "example@gmail.com", 
-    "password":"50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c", 
-    "SessionID": "ca31c9da-878f-4b8e-8480-4ed68c5c581d"}
-   }
+     
+     {  
+      "_id": {
+       "$oid": "5ec0cc38b8ea4c1f03037e85"
+       }, 
+      "name": "UserExample", 
+      "email": "example@gmail.com", 
+      "password":"50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c", 
+      "SessionID": "ca31c9da-878f-4b8e-8480-4ed68c5c581d"}
+      }
 <h3>Requesting:<a href="http://localhost:8000/login">http://localhost:8000/login</a> </h3>
 <h4>-the same data as /signup except the name field </h4>
 <h4>-both endpoint well return the same resualt wich is a user object with a SessionID from Database </h4>
