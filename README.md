@@ -1,4 +1,5 @@
 # Simple_Auth_API
+
 Simple Auth API  Build With  <a href="https://www.tornadoweb.org/en/stable/">Tornado</a>  Framework For Handling Authentication Process With Session ID Also Called a Transient Cookie
 
 ---------------------------------------
@@ -28,7 +29,9 @@ Simple Auth API  Build With  <a href="https://www.tornadoweb.org/en/stable/">Tor
 
 ---------------------------------------
 
+
 "Session" is the term used to refer to a user's time browsing a web site. It's meant to represent the time between their first arrival at a page in the site until the time they stop using the site
+
 
 ![](https://github.com/MedAmineFouzai/Simple_Auth_API/blob/master/Captures/easy.jpg)
 
@@ -79,6 +82,7 @@ both endpoint well return the same resualt wich is a user object with a SessionI
 ### Requesting: [http://localhost:8000/logout](http://localhost:8000/logout)
 
 this end point will clear all cookies and reset every thing 
+
 ![](https://github.com/MedAmineFouzai/Simple_Auth_API/blob/master/Captures/Capture.PNG)
 
 
